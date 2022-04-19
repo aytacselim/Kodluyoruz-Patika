@@ -1,0 +1,114 @@
+@import url('http://fonts.cdnfonts.com/css/latin-modern-roman');
+
+body {
+    background-color: #CAC198;
+    font-family: 'LMRomanDemi10', sans-serif;
+}
+li, a {
+    font-family: 'LMRomanSlant10', sans-serif;
+    font-size: 24px;
+    color: #CAC198;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    background-color: #800101;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+section {
+    padding-top: 40px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+footer {
+    background-color: #800101;
+    color: #CAC198;
+    text-align: center;
+    padding: 50px  20px;
+}
+
+h1 {
+    font-size: 32px;
+    color:#800101;
+    padding-bottom: 20px;
+    font-family: 'LMRomanSlant10', sans-serif;
+}
+
+h2 {
+    font-size: 24px;
+    color:#800101;
+    font-family: 'LMRomanSlant10', sans-serif;
+    padding-bottom: 20px;
+}
+
+h3 a {
+    font-size: 20.8px;
+    color:#800101;
+    font-family: 'LMRomanSlant10', sans-serif;
+}
+
+hr {
+    clear: right;
+    border: dotted;
+    color: #800101 6px;
+    border-bottom: none;
+    width: 10%;
+    margin: 50px auto 50px auto;
+}
+
+#logo {
+    width: 5%;
+}
+
+.building-details {
+    width: 50%;
+    margin: 10px auto 100px auto;
+    text-align: left;
+}
+
+.odd {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.even {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.navs {
+    list-style: none;
+}
+
+.navs li {
+    display: inline-block;
+    padding: 0px 20px;
+    background-color: #800101;
+}
+
+.navs li a {
+    transition: all 0.3s ease 0s;
+    background-color: #800101;
+}
+
+.navs li a:hover {
+    color: #FACD1E;
+}
+
+.footer-link {
+    width: 20px;
+}
+
+h3 a:hover {
+    color: #FACD1E;
+}
